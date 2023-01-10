@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Lexend;
+  background-color: #1d1f21;
+  color: #c5c8c6;
+  text-decoration: none;
+}
+
+.navContainer {
+  position: fixed;
+  padding: 15px;
+  padding-left: 25px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #282a2e;
+}
+
+.navContainer > * {
+  margin-right: 25px;
+  padding: 10px 2px;
+  background-color: #282a2e;
+  border-radius: 3px;
+}
+
+.introContainer {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 370px;
+  padding-top: 25px;
+}
+.introContainer > * {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 50px;
+}
+
+.scrollbyImg {
+  width: 100%;
+  position: relative;
+  left: 0;
+  height: 500px;
+  object-fit: none;
+}
+
+.glupiTekst {
+  margin: 4em 30%;
+}
+
+/*ja*/
+
+
+
+.lmaoContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  display: flex;
+}
+
+.lmaoContainer img {
+  width: 30%;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  min-width: 300px;
+}
+.lmaoContainer p {
+  width: 70%;
+  max-height: 500px;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  min-width: 500px;
+}
+
+/*projekti*/
+
+
+.idkmyguy {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.bruhContainer {
+  align-items: center;
+  display: flex;
+  margin: 50px;
+}
+
+.bruhContainer img {
+  width: 30%;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  min-width: 300px;
+}
+.bruhContainer p {
+  width: 70%;
+  max-height: 500px;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  min-width: 500px;
+}
+
+/*kontakti*/
+
+.kontaktiContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.item {
+  margin: 50px;
+  background-color: #282a2e;
+  border-radius: 20px;
+}
+.item > * {
+  width: 100px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 50%;
+  background-color: #282a2e;
+}
+.item > i {
+  font-size: xx-small;
+}
